@@ -166,7 +166,7 @@ input.submit {
     }
 
     .container-header {
-        max-width: 910px;
+        max-width: 960px;
         margin: 0px 60px 0px 20px;
     }
 }
@@ -178,7 +178,7 @@ input.submit {
     }
 
     .container-header {
-        max-width: 718px;
+        max-width: 768px;
         margin: 0px 60px 0px 20px;
     }
 }
@@ -190,7 +190,7 @@ input.submit {
     }
 
     .container-header {
-        max-width: 590px;
+        max-width: 640px;
         margin: 0px;
         padding: 0px;
     }
