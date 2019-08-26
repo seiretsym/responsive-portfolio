@@ -161,7 +161,7 @@ input.submit {
 
 @media only screen and (max-width: 980px) {
     .container {
-        max-width: 910px;
+        max-width: 900px;
         margin: 0px 60px 0px 20px;
     }
 
@@ -173,7 +173,7 @@ input.submit {
 
 @media only screen and (max-width: 768px) {
     .container {
-        max-width: 718px;
+        max-width: 708px;
         margin: 0px 60px 0px 20px;
     }
 
@@ -185,7 +185,7 @@ input.submit {
 
 @media only screen and (max-width: 640px) {
     .container {
-        max-width: 590px;
+        max-width: 580px;
         margin: 0px 60px 0px 20px;
     }
 
