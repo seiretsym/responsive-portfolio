@@ -1,0 +1,156 @@
+body {
+    margin:0;
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;.
+    font-size: 20px;
+    background-image: url("../images/floor-tile.png");
+}
+
+header {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: #666666;
+    color: #cccccc;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0px 10px 0px;
+    border-top: 8px solid #4aaaa5;
+}
+
+#nav {
+    float: right;
+    margin: 0px 10px;
+    padding: 30px 0px 10px 0px;
+    /* border: 1px solid black; - lets me see how big the element is */
+    color: #666666;
+}
+
+.container {
+    position: relative;
+    width: 960px;
+    margin: 0px 25%;
+}
+
+#name {
+    float: left;
+    margin: 0px;
+    padding: 0px 10px;
+    color: #FFFFFF;
+    background-color:#4aaaa5;
+    /* border: 1px solid black; - lets me see how big the element is*/
+    align-items: stretch;
+}
+/* used for logo */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    color: #ffffff;
+    font-size: 28px;
+    width: fit-content;
+}
+
+a:link {
+    text-decoration: none;
+    color: #666;
+}
+
+/* makes links underlined when hovered over */
+a:hover {
+    text-decoration: underline;
+}
+
+a:focus {
+    text-decoration: underline;
+}
+
+/* float photo to text wrap */
+.photo {
+    width: 300px;
+    height: 200px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+
+.portfolio {
+    width: 300px;
+    height: 200px;
+    opacity: 0.25;
+}
+
+#portfolio {
+    float: left;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+
+#content {
+    position: absolute;
+    background-color:#FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding: 20px;
+}
+
+/* used for content */
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 28px;
+}
+
+/* opacity change when hover over portfolio images */
+#portfolio:hover .portfolio {
+    opacity: 1.0;
+    transition: 1s;
+}
+
+#portfolio:hover .label {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+/* used for portfolio labels */
+.label {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    color: #FFFFFF;
+    background-color: #4aaaa5;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    bottom: 80px;
+    font-weight: lighter;
+}
+
+form {
+    width: 960px;
+}
+
+input {
+    margin: 5px 0px 10px 0px;
+    padding: 10px;
+    width: 97.5%;
+}
+
+textarea.message {
+    width: 97.7%;
+    margin: 5px 0px 10px 0px;
+    resize: none;
+    padding: 10px;
+}
+
+input.submit {
+    color:#FFFFFF;
+    background-color: #4aaaa5;
+    border: none;
+    padding: 10px 20px;
+    width: 100px;
+}
