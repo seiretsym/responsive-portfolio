@@ -186,12 +186,13 @@ input.submit {
 @media only screen and (max-width: 640px) {
     .container {
         max-width: 590px;
-        margin: 0px 0px 0px 20px;
+        margin: 0px 60px 0px 20px;
     }
 
     .container-header {
         max-width: 590px;
         margin: 0px;
+        padding: 0px;
     }
 
     .photo {
@@ -206,15 +207,34 @@ input.submit {
     }
 
     #nav {
-        padding: 0px 0px;
+        padding: 0px;
         top: 10px;
     }
 
     .navlinks {
+        position: relative;
         text-align: center;
     }
 
     .logo {
+        position: relative;
+        width: 100%;
         text-align: center;
+    }
+
+    #name {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #portfolio, .portfolio {
+        width: 260px;
+        height: 160px;
+        margin: 5px 0px;
+    }
+
+    #portfolio {
+        text-align: center;
+        margin-left: 10px;
     }
 }
