@@ -161,7 +161,7 @@ input.submit {
 
 @media only screen and (max-width: 980px) {
     .container {
-        max-width: 900px;
+        max-width: 90git statu0px;
         margin: 0px 60px 0px 20px;
     }
 
@@ -213,6 +213,7 @@ input.submit {
 
     .navlinks {
         position: relative;
+        width: 100%;
         text-align: center;
     }
 
