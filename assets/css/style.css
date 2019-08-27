@@ -34,13 +34,13 @@ footer {
 .container {
     position: relative;
     max-width: 960px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .container-header {
     position: relative;
     max-width: 960px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 #name {
@@ -213,7 +213,6 @@ input.submit {
 
     .navlinks {
         position: relative;
-        width: 100%;
         text-align: center;
     }
 
@@ -228,14 +227,11 @@ input.submit {
         margin: 0px;
     }
 
-    #portfolio, .portfolio {
-        width: 260px;
-        height: 160px;
-        margin: 5px 0px;
+    #portfolio {
+        margin: 10px auto;
     }
 
-    #portfolio {
-        text-align: center;
-        margin-left: 10px;
+    .portfolio {
+        width: 100%;
     }
 }
